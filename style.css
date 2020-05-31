@@ -1,0 +1,61 @@
+img {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+
+}
+
+body {
+    background: rgba(17, 210, 236, 0.63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+}
+
+a {
+    color: rgb(8, 37, 168);
+}
+
+h3 {
+    color: rgb(71, 26, 71);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.heroes {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.hero {
+    font-size: 13px;
+    text-decoration: none;
+    background-color: burlywood;
+    border: 1px black solid;
+    width: 70px;
+    height: 60px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0707/5489/products/avengerslogoblack.jpg?v=1534412392);
+    background-size: 100%;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+.thor {
+
+    background-image: url(https://cdn3.iconfinder.com/data/icons/marvel-avatars-filledoutline/64/thor-avangers-marvel-avatars-gartoon-marvel_avatars-hero-512.png);
+}
+
+.ironman {
+
+    background-image: url(https://img.icons8.com/plasticine/2x/iron-man.png);
+}
